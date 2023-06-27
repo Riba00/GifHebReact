@@ -1,10 +1,10 @@
-# React Project Documentation: GIF Search App
+# React Project Documentation: Gif Hub
 
 This documentation provides an overview of the React project "GIF Search App" and explains how to use and develop the application.
 
 ## Features
 
-The "GIF Search App" has the following features:
+The "Gif Hub App" has the following features:
 
 1. **Topic Search**: Allows users to enter a topic of their choice in a search field.
 2. **Display Results**: Shows up to 10 GIFs related to the entered topic.
@@ -21,7 +21,7 @@ Before getting started with the project, make sure you have the following instal
 
 Follow these steps to set up the project in your local environment:
 
-1. Clone the project repository from GitHub: `git clone https://github.com/your-username/gif-search-react.git`.
+1. Clone the project repository from GitHub: `git clone https://github.com/Riba00/GifHubReact.git`.
 2. Navigate to the project directory: `cd gif-search-react`.
 3. Install project dependencies: `npm install` or `yarn install`.
 
