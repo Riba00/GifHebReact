@@ -1,0 +1,126 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(234, 234, 234);
+}
+
+body {
+  padding: 20px 60px 60px 60px;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(97, 32, 158);
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  height: 0%;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+
+.card p {
+  background-color: white;
+  flex: 1;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  padding: 5px 20px 0px 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+#copyURLButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(22, 116, 179);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 0px;
+  border: none;
+}
+
+#copyURLButton:hover {
+  background-color: rgb(17, 34, 110);
+}
+
+#copyURLButton:active {
+  background-color: rgb(24, 97, 192);
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.slogan {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 10px;
+}
+.author {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #999;
+  margin: 0px;
+}
+
+.noSearches {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
