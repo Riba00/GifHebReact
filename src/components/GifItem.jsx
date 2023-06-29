@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 
 export const GifItem = ({ title, url }) => {
   const [buttonText, setButtonText] = useState("Copy URL");
@@ -22,4 +23,13 @@ export const GifItem = ({ title, url }) => {
       </button>
     </div>
   );
+};
+
+GifItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+};
+
+GifItem.defaultProps = {
+  title: "No title",
 };
